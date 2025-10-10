@@ -31,17 +31,17 @@ def get_app_data_dir():
 
 def get_config_path():
     """Get persistent config file path"""
-    return os.path.join(get_app_data_dir(), "config.json")
+    return os.path.join(get_app_data_dir()+'\\LostKit', 'config.json')
 
 def get_persistent_cache_dir():
     """Get persistent cache directory that survives restarts"""
-    cache_dir = Path(get_app_data_dir()) / "cache"
+    cache_dir = Path(get_app_data_dir()+'\\LostKit') / 'cache'
     cache_dir.mkdir(exist_ok=True)
     return str(cache_dir)
 
 def get_persistent_storage_dir():
     """Get persistent storage directory for web engine data"""
-    storage_dir = Path(get_app_data_dir()) / "storage"
+    storage_dir = Path(get_app_data_dir()+'\\LostKit') / 'storage'
     storage_dir.mkdir(exist_ok=True)
     return str(storage_dir)
 
