@@ -1,3 +1,6 @@
+# LostKit repo is being archived, please see the new repo: [LostHQ/LostKit-Electron](https://github.com/LostHQ/LostKit-Electron)
+
+
 # 🧙‍♂️ LostKit – LostHQ’s Toolkit for Lost City
 
 **LostKit** is the **LostHQ** team’s ultimate toolkit for navigating and enjoying **Lost City**. It blends nostalgia with practicality, keeping all essential tools adventurers could ever need in one place, while preserving that old-school RPG charm.
